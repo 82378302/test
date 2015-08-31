@@ -23,6 +23,7 @@
 			ie11: ('-ms-scroll-limit' in document.documentElement.style) || !!window.MSInputMethodContext
 		}
 	};
+	
 	os.isFireFox = function() {
 		return firefox = !!window.updateCommands;
 	};
