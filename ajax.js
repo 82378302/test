@@ -3,6 +3,8 @@
 		define(factory);
 	} else {
 		root.ajax = factory();
+
+		
 	}
 })(this, function() {
 	var defaultOpt = {
